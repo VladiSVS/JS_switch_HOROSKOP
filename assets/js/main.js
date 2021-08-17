@@ -17,7 +17,7 @@ function showHoroskop() {
             document.getElementById("astroText").innerHTML = "Your intense energy makes you a great candidate for a leadership position right now, so if you are…"
             break;
         case "May":
-        case "mya":
+        case "may":
             document.getElementById("astroImg").src = "assets/img/icon_gemini.png"
             document.getElementById("astroName").innerHTML = "GEMINI"
             document.getElementById("astroText").innerHTML = "If you aren't sure if you are ready to commit to a party, a date, a new job, or anything else that…"
