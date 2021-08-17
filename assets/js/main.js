@@ -77,6 +77,8 @@ function showHoroskop() {
             document.getElementById("astroText").innerHTML = "Communication is very important today—written, spoken, and even nonverbal body language will all…"
             break;
         default:
+            document.getElementById("astroImg").src = ""
+            document.getElementById("astroText").innerHTML = ""
             document.getElementById("astroName").innerHTML = "NOT FOUND"
             break;
     }
